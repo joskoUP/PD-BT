@@ -294,7 +294,7 @@ ylim([1e-11 1e+3])
 set(gca,'fontsize',13,'ticklabelinterpreter','latex')
 
 %% plot posterior mean square errors (in full space)
-posnormref = mean(sqrt(sum((PosMean_true_all).^2)));
+posnormref = mean(sum((PosMean_true_all).^2));
 subplot(1,2,1)
 semilogy(r_vals,full_mu_errs(:,2)/posnormref,'o','Color','#FFB000'); hold on
 semilogy(r_vals,full_mu_errs(:,3)/posnormref,'^','Color','#DC267F');
