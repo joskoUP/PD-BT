@@ -305,7 +305,7 @@ xlabel('$r$','interpreter','latex','fontsize',13)
 legend({'LIS-BT','PD-BT','OLR'},'interpreter','latex','fontsize',13,'Location','northeast')
 legend boxoff
 xlim([0 236])
-ylim([1e-12 100])
+ylim([1e-14 1])
 set(gca,'fontsize',13,'ticklabelinterpreter','latex')
 
 %% plot PD-BT error bound    
