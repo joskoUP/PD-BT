@@ -2,7 +2,7 @@
 
 This MATLAB repository contains code for the numerical results of the following paper:
 
-1. König, J., Qian E., Freitag, M. A. "[Dimension and model reduction approaches for linear Bayesian inverse problems with rank-deficient prior covariances](put arXiV link here)."
+1. König, J., Qian E., Freitag, M. A. "[Dimension and model reduction approaches for linear Bayesian inverse problems with rank-deficient prior covariances](http://arxiv.org/abs/2506.23892)."
 
 ## Summary
 The work in [1] proposes balanced truncation (BT) of a new prior-driven LTI system for model reduction in linear Bayesian inference, particularly suitable for a rank-deficient prior covariance.
