@@ -192,7 +192,7 @@ for rr = 1:length(r_vals)
     full_mu_errs(rr,2)  = mean(sum((mean_LIS_BT-PosMean_true_all).^2));
 
     %% PD-BT posterior quantities
-    % PD-BT - generate reduced forward matrix G_LIS_BT (not restricted)
+    % PD-BT - generate reduced forward matrix G_PD (not restricted)
     G_PD           = zeros(n*d_out,r);
     iter           = expm(A_PD(1:r,1:r)*dt_obs);
     temp           = C_PD(:,1:r);
